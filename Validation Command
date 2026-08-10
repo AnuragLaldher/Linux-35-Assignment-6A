@@ -1,0 +1,20 @@
+Top 5 memory:
+./otProcessManager topProcess 5 memory
+Top 10 CPU:
+./otProcessManager topProcess 10 cpu
+Kill least-priority process:
+./otProcessManager killLeastPriorityProcess
+Running duration by name:
+./otProcessManager RunningDurationProcess nginx
+Running duration by PID:
+./otProcessManager RunningDurationProcess 1234
+Orphan processes:
+./otProcessManager listOrphanProcess
+Zombie processes:
+./otProcessManager listZoombieProcess
+Kill by name:
+./otProcessManager killProcess nginx
+Kill by PID:
+./otProcessManager killProcess 1234
+Waiting processes:
+./otProcessManager ListWaitingProcess
